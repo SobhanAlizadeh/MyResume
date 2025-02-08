@@ -35,7 +35,7 @@ function LoaderAnimation({ position, onComplete }) {
   
     return visible ? (
       <>
-        <Text ref={textRef} fontSize={isMobile ? 1 : 1.5} position={[0, -2, 0]} color="gold">
+        <Text ref={textRef} fontSize={isMobile ? 0.8 : 1.5} position={[0, -2, 0]} color="gold">
           Sobhan Alizadeh
         </Text>
         <Image
